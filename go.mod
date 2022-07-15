@@ -13,7 +13,7 @@ require (
 	github.com/fatih/structs v1.1.0
 	github.com/go-kit/log v0.2.0
 	github.com/go-logfmt/logfmt v0.5.1
-	github.com/go-logr/logr v1.0.0
+	github.com/go-logr/logr v1.2.0
 	github.com/go-sql-driver/mysql v1.6.0
 	github.com/gogo/protobuf v1.3.2
 	github.com/golang/protobuf v1.5.2
@@ -55,7 +55,7 @@ require (
 	github.com/prometheus-community/windows_exporter v0.0.0-00010101000000-000000000000
 	github.com/prometheus-operator/prometheus-operator v0.47.0
 	github.com/prometheus-operator/prometheus-operator/pkg/apis/monitoring v0.47.0
-	github.com/prometheus/client_golang v1.11.0
+	github.com/prometheus/client_golang v1.12.1
 	github.com/prometheus/common v0.32.1
 	github.com/prometheus/consul_exporter v0.7.2-0.20210127095228-584c6de19f23
 	github.com/prometheus/memcached_exporter v0.9.0
@@ -66,7 +66,7 @@ require (
 	github.com/prometheus/statsd_exporter v0.22.2
 	github.com/rancher/k3d/v5 v5.2.2
 	github.com/sirupsen/logrus v1.8.1
-	github.com/spf13/cobra v1.2.1
+	github.com/spf13/cobra v1.4.0
 	github.com/stretchr/testify v1.7.0
 	github.com/uber/jaeger-client-go v2.29.1+incompatible
 	github.com/weaveworks/common v0.0.0-20211222122857-933588f98737
@@ -78,18 +78,18 @@ require (
 	go.uber.org/atomic v1.9.0
 	go.uber.org/multierr v1.7.0
 	go.uber.org/zap v1.19.1
-	golang.org/x/sys v0.0.0-20211117180635-dee7805ff2e1
+	golang.org/x/sys v0.0.0-20220209214540-3681064d5158
 	google.golang.org/grpc v1.42.0
 	gopkg.in/alecthomas/kingpin.v2 v2.2.6
 	gopkg.in/yaml.v2 v2.4.0
 	gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b
-	k8s.io/api v0.22.3
-	k8s.io/apiextensions-apiserver v0.21.0
-	k8s.io/apimachinery v0.22.3
+	k8s.io/api v0.24.2
+	k8s.io/apiextensions-apiserver v0.24.2
+	k8s.io/apimachinery v0.24.2
 	k8s.io/client-go v12.0.0+incompatible
-	k8s.io/klog/v2 v2.20.0
-	k8s.io/utils v0.0.0-20211116205334-6203023598ed
-	sigs.k8s.io/controller-runtime v0.9.0-beta.5
+	k8s.io/klog/v2 v2.60.1
+	k8s.io/utils v0.0.0-20220210201930-3a6ce19ff2f9
+	sigs.k8s.io/controller-runtime v0.12.3
 	sigs.k8s.io/yaml v1.3.0
 )
 
@@ -159,7 +159,7 @@ require (
 	github.com/envoyproxy/go-control-plane v0.9.10-0.20210907150352-cf90f659a021 // indirect
 	github.com/envoyproxy/protoc-gen-validate v0.6.1 // indirect
 	github.com/euank/go-kmsg-parser v2.0.0+incompatible // indirect
-	github.com/evanphx/json-patch v4.9.0+incompatible // indirect
+	github.com/evanphx/json-patch v4.12.0+incompatible // indirect
 	github.com/fatih/color v1.12.0 // indirect
 	github.com/felixge/fgprof v0.9.1 // indirect
 	github.com/felixge/httpsnoop v1.0.2 // indirect
@@ -180,6 +180,7 @@ require (
 	github.com/golang/snappy v0.0.4 // indirect
 	github.com/gomodule/redigo v2.0.0+incompatible // indirect
 	github.com/google/btree v1.0.1 // indirect
+	github.com/google/gnostic v0.5.7-v3refs // indirect
 	github.com/google/go-cmp v0.5.6 // indirect
 	github.com/google/go-querystring v1.0.0 // indirect
 	github.com/google/gofuzz v1.1.0 // indirect
@@ -325,9 +326,9 @@ require (
 	github.com/xeipuuv/gojsonschema v1.2.0 // indirect
 	github.com/youmark/pkcs8 v0.0.0-20181117223130-1be2e3e5546d // indirect
 	go.etcd.io/etcd v3.3.25+incompatible // indirect
-	go.etcd.io/etcd/api/v3 v3.5.0 // indirect
-	go.etcd.io/etcd/client/pkg/v3 v3.5.0 // indirect
-	go.etcd.io/etcd/client/v3 v3.5.0 // indirect
+	go.etcd.io/etcd/api/v3 v3.5.1 // indirect
+	go.etcd.io/etcd/client/pkg/v3 v3.5.1 // indirect
+	go.etcd.io/etcd/client/v3 v3.5.1 // indirect
 	go.mongodb.org/mongo-driver v1.7.1 // indirect
 	go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc v0.27.0 // indirect
 	go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp v0.27.0 // indirect
@@ -336,17 +337,17 @@ require (
 	go.uber.org/goleak v1.1.12 // indirect
 	go4.org/intern v0.0.0-20210108033219-3eb7198706b2 // indirect
 	go4.org/unsafe/assume-no-moving-gc v0.0.0-20201222180813-1025295fd063 // indirect
-	golang.org/x/crypto v0.0.0-20210921155107-089bfa567519 // indirect
-	golang.org/x/net v0.0.0-20211111160137-58aab5ef257a // indirect
-	golang.org/x/oauth2 v0.0.0-20211005180243-6b3c2da341f1 // indirect
+	golang.org/x/crypto v0.0.0-20220214200702-86341886e292 // indirect
+	golang.org/x/net v0.0.0-20220127200216-cd36cc0744dd // indirect
+	golang.org/x/oauth2 v0.0.0-20211104180415-d3ed0bb246c8 // indirect
 	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c // indirect
-	golang.org/x/term v0.0.0-20210615171337-6886f2dfbf5b // indirect
+	golang.org/x/term v0.0.0-20210927222741-03fcf44c2211 // indirect
 	golang.org/x/text v0.3.7 // indirect
-	golang.org/x/time v0.0.0-20210723032227-1f47c861a9ac // indirect
-	gomodules.xyz/jsonpatch/v2 v2.1.0 // indirect
+	golang.org/x/time v0.0.0-20220210224613-90d013bbcef8 // indirect
+	gomodules.xyz/jsonpatch/v2 v2.2.0 // indirect
 	google.golang.org/api v0.59.0 // indirect
 	google.golang.org/appengine v1.6.7 // indirect
-	google.golang.org/genproto v0.0.0-20211112145013-271947fe86fd // indirect
+	google.golang.org/genproto v0.0.0-20220107163113-42d7afdf6368 // indirect
 	google.golang.org/protobuf v1.27.1 // indirect
 	gopkg.in/fsnotify.v1 v1.4.7 // indirect
 	gopkg.in/fsnotify/fsnotify.v1 v1.4.7 // indirect
@@ -355,9 +356,9 @@ require (
 	gopkg.in/mgo.v2 v2.0.0-20190816093944-a6b53ec6cb22 // indirect
 	gopkg.in/tomb.v1 v1.0.0-20141024135613-dd632973f1e7 // indirect
 	inet.af/netaddr v0.0.0-20210903134321-85fa6c94624e // indirect
-	k8s.io/component-base v0.21.0 // indirect
-	k8s.io/kube-openapi v0.0.0-20210305001622-591a79e4bda7 // indirect
-	sigs.k8s.io/structured-merge-diff/v4 v4.1.2 // indirect
+	k8s.io/component-base v0.24.2 // indirect
+	k8s.io/kube-openapi v0.0.0-20220328201542-3ee0da9b0b42 // indirect
+	sigs.k8s.io/structured-merge-diff/v4 v4.2.1 // indirect
 )
 
 // Replace directives from Prometheus

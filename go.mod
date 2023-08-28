@@ -24,7 +24,7 @@ require (
 	github.com/golang/snappy v0.0.4 // indirect
 	github.com/google/cadvisor v0.44.0
 	github.com/google/dnsmasq_exporter v0.0.0-00010101000000-000000000000
-	github.com/google/go-jsonnet v0.18.0
+	github.com/google/go-jsonnet v0.20.0
 	github.com/google/uuid v1.3.0
 	github.com/gorilla/mux v1.8.0
 	github.com/grafana/dskit v0.0.0-20220708141012-99f3d0043c23
@@ -99,7 +99,7 @@ require (
 	go.uber.org/multierr v1.8.0
 	go.uber.org/zap v1.23.0
 	golang.org/x/net v0.0.0-20220920203100-d0c6ba3f52d9
-	golang.org/x/sys v0.0.0-20220808155132-1c4a2a72c664
+	golang.org/x/sys v0.1.0
 	golang.org/x/time v0.0.0-20220722155302-e5dcc9cfc0b9
 	google.golang.org/grpc v1.49.0
 	gopkg.in/alecthomas/kingpin.v2 v2.2.6

@@ -41,7 +41,7 @@ require (
 	github.com/johannesboyne/gofakes3 v0.0.0-20210819161434-5c8dfcfe5310
 	github.com/json-iterator/go v1.1.12
 	github.com/jsternberg/zap-logfmt v1.2.0
-	github.com/lib/pq v1.10.2
+	github.com/lib/pq v1.10.9
 	github.com/miekg/dns v1.1.50
 	github.com/minio/pkg v1.1.15
 	github.com/mitchellh/mapstructure v1.5.0

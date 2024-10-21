@@ -12,7 +12,7 @@ jobs:
     runs-on: macos-latest
     steps:
     - name: Update Homebrew formula
-      uses: dawidd6/action-homebrew-bump-formula@v3
+      uses: dawidd6/action-homebrew-bump-formula@v4
       with:
         # Required, custom GitHub access token with the 'public_repo' and 'workflow' scopes
         token: ${{secrets.HOMEBREW_FORMULA_GH_TOKEN}}
@@ -29,7 +29,7 @@ jobs:
     runs-on: macos-latest
     steps:
     - name: Update Homebrew formula
-      uses: dawidd6/action-homebrew-bump-formula@v3
+      uses: dawidd6/action-homebrew-bump-formula@v4
       with:
         # Required, custom GitHub access token with the 'public_repo' and 'workflow' scopes
         token: ${{secrets.HOMEBREW_FORMULA_GH_TOKEN}}

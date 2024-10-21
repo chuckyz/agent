@@ -25,7 +25,7 @@ require (
 	github.com/google/cadvisor v0.44.0
 	github.com/google/dnsmasq_exporter v0.0.0-00010101000000-000000000000
 	github.com/google/go-jsonnet v0.18.0
-	github.com/google/uuid v1.3.0
+	github.com/google/uuid v1.6.0
 	github.com/gorilla/mux v1.8.0
 	github.com/grafana/dskit v0.0.0-20220708141012-99f3d0043c23
 	github.com/grafana/loki v1.6.2-0.20220718071907-6bd05c9a4399
